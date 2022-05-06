@@ -8,7 +8,7 @@ Set-AzContext $context
 
 # May not be required - Only if it lists more than one Concierge Subscription
 # Then Get-AzSubscription & copy the ID as below example
-$context = Get-AzSubscription -SubscriptionId d47c5709-1880-4278-a75a-0e0f6343170f
+$context = Get-AzSubscription -SubscriptionId ""
 Set-AzContext $context
 
 New-AzResourceGroup -Name bicepex001 -Location 'uksouth' -Verbose
